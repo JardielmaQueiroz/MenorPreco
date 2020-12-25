@@ -15,6 +15,7 @@ namespace MenorPreco.API.Models
         public int cod_NCM { get; set; }
         public DateTime date_emissão { get; set; }
         public int cod_tipo_pagamento { get; set; }
+        public int id_produto { get; set; }
         public IEnumerable<Produto> produtos { get; set; }
         public int estabelecimentoId { get; set; }
         public Estabelecimento estabelecimento { get; set; }
